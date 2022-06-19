@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import  Pocetna from './components/pages/Pocetna';
+import ONama from './components/pages/ONama';
+import Ponuda from './components/pages/Ponuda';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar/>
+        <Switch>
+          <Route path='/' exact component = {Pocetna}/>
+          <Route path='/o-nama' exact component = {ONama}/>
+          <Route path='/ponuda' exact component = {Ponuda}/>
+        </Switch>
+        <Footer/>
+      </Router>
+      </>
   );
 }
 
