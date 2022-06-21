@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3%;
-    margin: 5% 0;
+    margin: 5% 10%;
 }
 
 .card {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TrenerCardComponent from './Ponuda/PonudaCardComponent';
 import '../css/ponudaComponent.css'
 
-class Treneri extends Component {
+class Ponuda extends Component {
 
     constructor(props) {
         super(props);
@@ -21,7 +21,7 @@ class Treneri extends Component {
                     {
                         this.state.treneri.map(
                             trener =>
-                                <TrenerCardComponent trener={trener} />
+                                <PonudaCardComponent trener={trener} />
                         )
                     }
 
@@ -31,4 +31,4 @@ class Treneri extends Component {
     }
 }
 
-export default Treneri;
+export default Ponuda;
