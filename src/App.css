@@ -1,38 +1,244 @@
-.App {
+html,
+body {
+  margin: 0;
   text-align: center;
+  background-color: #1c1c1c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-container{
+  padding: 0 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-text {
+  position: relative;
+  top: 200px;
+}
+
+h1,
+h2,
+a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*main-picture*/
+
+.main-picture {
+  background: url("https://images.unsplash.com/photo-1416425243776-b8fd4dc53f50?fit=crop&fm=jpg&h=950&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1925") no-repeat center center fixed;
+  box-shadow: inset 0 0 0 1000px rgba(255, 168, 0, .4);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
+
+.main-picture h1 {
+  font-size: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-picture p {
+  font-size: 18px;
+  color: #fff;
+  padding: 5px;
+}
+
+.main-picture h2 {
+  color: #fff;
+  padding: 3px;
+}
+
+.btn {
+  border: 0;
+  background: #000000;
+  padding: 8px 14px 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: rgb(255, 168, 0);
+  cursor: pointer;
+  transition: background .5s;
+}
+
+
+/*suporting*/
+
+.supporting {
+  background: #1c1c1c;
+  text-align: center;
+  padding: 50px 0 80px;
+}
+
+
+/*.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}*/
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 46px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 10px;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.supporting .button a {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.rest {
+  background: url("https://images.unsplash.com/photo-1420393000485-4697383da9ec?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9d11e076c1d8027b104098ba084e3f1c") no-repeat center center fixed;
+  box-shadow: inset 0 0 0 1000px rgba(255, 168, 0, .4);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+}
+
+.rest h1 {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+  padding: 300px 0 0;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+
+/* Footer */
+
+.footer {
+  background: url("https://images.unsplash.com/photo-1459409342466-58a380fc8bd6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f1b366a36088169abc1c1ad72cdc735a") no-repeat center center fixed;
+  box-shadow: inset 0 0 0 1000px rgba(255, 168, 0, .4);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 48px;
+  margin: 0 0 20px 0;
+  padding: 300px 0 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+@media (min-width:600px) {
+  .main-picture h1 {
+    font-size: 50px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 16px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .main-picture {
+    height: 1000px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-picture h1 {
+    padding-top: 250px;
+  }
+
+  .main-picture h2 {
+    font-size: 40px;
+  }
+
+  .main-picture p {
+    font-size: 28px;
+  }
+
+  .btn {
+    padding: 8px 14px 10px;
+    font-size: 20px;
+  }
+
+  .supporting h2 {
+    font-size: 44px;
+    padding: 10px;
+  }
+
+  .supporting p {
+    font-size: 28px;
+    line-height: 150%;
+    padding: 20px;
+  }
+
+  .rest,
+  .footer {
+    height: 900px;
+    padding-top: 100px;
+  }
+
+  .rest h1 {
+    font-size: 53px;
+  }
+
+  .footer h1 {
+    font-size: 53px;
+    margin: 0;
+    padding-bottom: 30px;
+
   }
 }

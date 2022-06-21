@@ -1,25 +1,23 @@
 import './App.css';
 import React from 'react'
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import  Pocetna from './components/pages/Pocetna';
-import ONama from './components/pages/ONama';
-import Ponuda from './components/pages/Ponuda';
+import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
+import Treneri from './components/Treneri';
+import Pocetna from './components/Pocetna';
 
 function App() {
   return (
-    <>
+    <div className='main-container'>
       <Router>
-        <Navbar/>
-        <Switch>
-          <Route path='/' exact component = {Pocetna}/>
-          <Route path='/o-nama' exact component = {ONama}/>
-          <Route path='/ponuda' exact component = {Ponuda}/>
-        </Switch>
-        <Footer/>
+        <Navbar />
+          <Routes>
+            <Route path='/' element={<Pocetna />} />
+            <Route path='/pocetna' element={<Pocetna />} />
+            <Route path='/treneri' element={<Treneri />} />
+          </Routes>
       </Router>
-      </>
+    </div >
   );
 }
 
