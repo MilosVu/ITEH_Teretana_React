@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-// import './Footer.css'
+import '../css/footer.css'
 
 function Footer() {
     return (
@@ -25,8 +25,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Moje brdo
-              <i class='fas fa-coffee' />
+              Teretana
             </Link>
           </div>
           <small class='website-rights'>Moje brdo © 2021</small>

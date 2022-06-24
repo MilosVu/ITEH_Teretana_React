@@ -1,0 +1,2316 @@
+.fixCoachListHeight {
+    margin-bottom: calc(102px + 2rem);
+}
+
+.coach {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(231, 233, 232);
+    border-radius: 0.5rem;
+    top: 102px;
+    transition: all 0.3s ease 0s;
+}
+
+.coach:hover {
+    background-color: rgb(14, 17, 36);
+}
+
+.coachImgContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -102px;
+    left: 0px;
+    right: 0px;
+}
+
+.coachImg {
+    width: 204px;
+    height: 204px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coachImg img {
+    max-width: initial;
+}
+
+.coachContentContainer {
+    padding-top: 102px;
+    position: relative;
+}
+
+.coachName {
+    transition: all 0.3s ease 0s;
+}
+
+.coach:hover .coachName {
+    color: rgb(23, 228, 197);
+}
+
+.coachContent {
+    transition: all 0.3s ease 0s;
+}
+
+.coach:hover .coachContent {
+    color: rgb(255, 255, 255) !important;
+}
+
+.coachContent {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    color: rgb(14, 17, 36) !important;
+}
+
+.likeButton {
+    border-color: rgb(33, 250, 150);
+    background: linear-gradient(45deg, rgb(22, 228, 196) 0px, rgb(33, 250, 150) 100%);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans Semi";
+    font-size: 1.063em;
+    text-shadow: rgba(0, 0, 0, 0.05) 1px 1px 0px;
+}
+
+.text-onefit {
+    color: rgb(22, 228, 196) !important;
+}
+
+.pagination {
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination .page-numbers {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: rgb(22, 228, 196);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(222, 226, 230);
+}
+
+.pagination .page-numbers.current {
+    z-index: 1;
+    background: linear-gradient(45deg, rgb(22, 228, 196) 0px, rgb(33, 250, 150) 100%);
+    color: rgb(255, 255, 255);
+    cursor: not-allowed;
+}
+
+.pagination .page-numbers:not(.current):hover {
+    color: rgb(18, 179, 158);
+    text-decoration: none;
+    background-color: rgb(233, 236, 239);
+    border-color: rgb(222, 226, 230);
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-5,
+    .my-5 {
+        margin-bottom: 3rem !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xxl-1,
+    .col-xxl-100,
+    .col-xxl-111,
+    .col-xxl-122,
+    .col-xxl-2,
+    .col-xxl-3,
+    .col-xxl-4,
+    .col-xxl-5,
+    .col-xxl-6,
+    .col-xxl-7,
+    .col-xxl-8,
+    .col-xxl-9,
+    .col-xxxl-1,
+    .col-xxxl-10,
+    .col-xxxl-11,
+    .col-xxxl-12,
+    .col-xxxl-2,
+    .col-xxxl-3,
+    .col-xxxl-4,
+    .col-xxxl-5,
+    .col-xxxl-6,
+    .col-xxxl-7,
+    .col-xxxl-8,
+    .col-xxxl-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .position-relative {
+        position: relative !important;
+    }
+}
+
+@media all {
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+
+@media all {
+
+    #secondary img,
+    article img,
+    figure,
+    img,
+    img.wp-post-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 0px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media all {
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+@media all {
+
+    .h4,
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Poppins;
+        font-weight: 700;
+        color: rgb(14, 16, 35);
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        color: rgb(33, 37, 41);
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    }
+}
+
+@media all {
+    .font-weight-bold {
+        font-weight: 700 !important;
+    }
+}
+
+@media all {
+    .text-white {
+        color: rgb(255, 255, 255) !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fad,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xxl-1,
+    .col-xxl-100,
+    .col-xxl-111,
+    .col-xxl-122,
+    .col-xxl-2,
+    .col-xxl-3,
+    .col-xxl-4,
+    .col-xxl-5,
+    .col-xxl-6,
+    .col-xxl-7,
+    .col-xxl-8,
+    .col-xxl-9,
+    .col-xxxl-1,
+    .col-xxxl-10,
+    .col-xxxl-11,
+    .col-xxxl-12,
+    .col-xxxl-2,
+    .col-xxxl-3,
+    .col-xxxl-4,
+    .col-xxxl-5,
+    .col-xxxl-6,
+    .col-xxxl-7,
+    .col-xxxl-8,
+    .col-xxxl-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .position-relative {
+        position: relative !important;
+    }
+}
+
+@media all {
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+
+@media all {
+
+    #secondary img,
+    article img,
+    figure,
+    img,
+    img.wp-post-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 0px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media all {
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+@media all {
+
+    .h4,
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Poppins;
+        font-weight: 700;
+        color: rgb(14, 16, 35);
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        color: rgb(33, 37, 41);
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    }
+}
+
+@media all {
+    .font-weight-bold {
+        font-weight: 700 !important;
+    }
+}
+
+@media all {
+    .text-white {
+        color: rgb(255, 255, 255) !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fad,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xxl-1,
+    .col-xxl-100,
+    .col-xxl-111,
+    .col-xxl-122,
+    .col-xxl-2,
+    .col-xxl-3,
+    .col-xxl-4,
+    .col-xxl-5,
+    .col-xxl-6,
+    .col-xxl-7,
+    .col-xxl-8,
+    .col-xxl-9,
+    .col-xxxl-1,
+    .col-xxxl-10,
+    .col-xxxl-11,
+    .col-xxxl-12,
+    .col-xxxl-2,
+    .col-xxxl-3,
+    .col-xxxl-4,
+    .col-xxxl-5,
+    .col-xxxl-6,
+    .col-xxxl-7,
+    .col-xxxl-8,
+    .col-xxxl-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .position-relative {
+        position: relative !important;
+    }
+}
+
+@media all {
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+
+@media all {
+
+    #secondary img,
+    article img,
+    figure,
+    img,
+    img.wp-post-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 0px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media all {
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+@media all {
+
+    .h4,
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Poppins;
+        font-weight: 700;
+        color: rgb(14, 16, 35);
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        color: rgb(33, 37, 41);
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    }
+}
+
+@media all {
+    .font-weight-bold {
+        font-weight: 700 !important;
+    }
+}
+
+@media all {
+    .text-white {
+        color: rgb(255, 255, 255) !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fad,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xxl-1,
+    .col-xxl-100,
+    .col-xxl-111,
+    .col-xxl-122,
+    .col-xxl-2,
+    .col-xxl-3,
+    .col-xxl-4,
+    .col-xxl-5,
+    .col-xxl-6,
+    .col-xxl-7,
+    .col-xxl-8,
+    .col-xxl-9,
+    .col-xxxl-1,
+    .col-xxxl-10,
+    .col-xxxl-11,
+    .col-xxxl-12,
+    .col-xxxl-2,
+    .col-xxxl-3,
+    .col-xxxl-4,
+    .col-xxxl-5,
+    .col-xxxl-6,
+    .col-xxxl-7,
+    .col-xxxl-8,
+    .col-xxxl-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .position-relative {
+        position: relative !important;
+    }
+}
+
+@media all {
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+
+@media all {
+
+    #secondary img,
+    article img,
+    figure,
+    img,
+    img.wp-post-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media all {
+    img {
+        vertical-align: middle;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 0px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media all {
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+@media all {
+
+    .h4,
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Poppins;
+        font-weight: 700;
+        color: rgb(14, 16, 35);
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        color: rgb(33, 37, 41);
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    }
+}
+
+@media all {
+    .font-weight-bold {
+        font-weight: 700 !important;
+    }
+}
+
+@media all {
+    .text-white {
+        color: rgb(255, 255, 255) !important;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fad,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fab,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+}
+
+@media all {
+
+    .fa,
+    .fas {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    .pagination {
+        display: flex;
+        padding-left: 0px;
+        list-style: none;
+        border-radius: 0.25rem;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+@media all {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+}
+
+@media all {
+    a {
+        color: rgb(0, 123, 255);
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+@media all {
+    a {
+        transition: all 0.25s ease-in-out 0s;
+    }
+}
+
+.col-md-3.fixCoachListHeight{
+    width: 22%;
+}

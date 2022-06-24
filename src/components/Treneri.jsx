@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TrenerCardComponent from './Ponuda/PonudaCardComponent';
 import '../css/ponudaComponent.css'
+import TrenerCardComponent from './Trener/TrenerCardComponent';
 
 class Treneri extends Component {
 
@@ -15,18 +15,16 @@ class Treneri extends Component {
 
     render() {
         return (
-            <div className="content-container">
-            <div class="grid">
-
+            <div class="container">
+                <div class="row items">
                     {
                         this.state.treneri.map(
                             trener =>
                                 <TrenerCardComponent trener={trener} />
                         )
                     }
-
                 </div>
-            </div >
+            </div>
         );
     }
 }

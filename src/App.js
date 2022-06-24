@@ -5,32 +5,33 @@ import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom
 import Footer from './components/Footer';
 import Treneri from './components/Treneri';
 import Pocetna from './components/Pocetna';
+import ONama from './components/ONama';
 
 
 let treneri = [
   {
-      "ime": "Milos",
-      "prezime": "Vujic",
-      "specijalnost": "Atletika",
-      "iskustvo": "4"
+    "ime": "Milos",
+    "prezime": "Vujic",
+    "specijalnost": "Atletika",
+    "iskustvo": "4"
   },
   {
-      "ime": "Petar",
-      "prezime": "Petrovic",
-      "specijalnost": "Fitnes",
-      "iskustvo": "1"
+    "ime": "Petar",
+    "prezime": "Petrovic",
+    "specijalnost": "Fitnes",
+    "iskustvo": "1"
   },
   {
-      "ime": "Nina",
-      "prezime": "Markovic",
-      "specijalnost": "Body building",
-      "iskustvo": "2"
+    "ime": "Nina",
+    "prezime": "Markovic",
+    "specijalnost": "Body building",
+    "iskustvo": "2"
   },
   {
-      "ime": "Milica",
-      "prezime": "Micic",
-      "specijalnost": "Atletika",
-      "iskustvo": "2"
+    "ime": "Milica",
+    "prezime": "Micic",
+    "specijalnost": "Atletika",
+    "iskustvo": "2"
   }
 ];
 
@@ -62,7 +63,7 @@ let ponude = [
 ];
 
 let data = {
-  "treneri" : treneri,
+  "treneri": treneri,
   "ponude": ponude
 }
 
@@ -71,11 +72,13 @@ function App() {
     <div className='main-container'>
       <Router>
         <Navbar />
-          <Routes>
-            <Route path='/' element={<Pocetna data={data}/>} />
-            <Route path='/pocetna' element={<Pocetna data={data}/>} />
-            {/* <Route path='/treneri' element={<Treneri treneri={data.treneri}/>} /> */}
-          </Routes>
+        <Routes>
+          <Route path='/' element={<Pocetna data={data} />} />
+          <Route path='/pocetna' element={<Pocetna data={data} />} />
+          <Route path='/treneri' element={<Treneri treneri={data.treneri}/>} />
+          <Route path='/o-nama' element={<ONama />} />
+        </Routes>
+        <Footer />
       </Router>
     </div >
   );

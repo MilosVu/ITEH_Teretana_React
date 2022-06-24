@@ -13,7 +13,7 @@ function Navbar() {
             <nav className = "navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo"  onClick={closeMobileMenu}>
-                        Teretana<i className="fas fa-coffee"/>
+                        Teretana
                     </Link>
                     
                     <div className='menu-icon' onClick={handleClick}>
