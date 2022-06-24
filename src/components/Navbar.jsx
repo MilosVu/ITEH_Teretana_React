@@ -13,7 +13,7 @@ function Navbar() {
             <nav className = "navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo"  onClick={closeMobileMenu}>
-                        Teretana
+                        Teretana Super Fit
                     </Link>
                     
                     <div className='menu-icon' onClick={handleClick}>
@@ -31,7 +31,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/sprave' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/#' className='nav-links' onClick={closeMobileMenu}>
                                 Sprave
                             </Link>
                         </li>

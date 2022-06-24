@@ -2,7 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3%;
-    margin: 5% 10%;
+    margin-top: 5%;
+}
+.card_body {
+    color: #ffa800;
 }
 
 .card {
@@ -148,4 +151,20 @@
     .call_btn {
         margin: 100px 0 25px;
     }
+}
+
+.container {
+    color: black;
+}
+
+.coachContentContainer p {
+    color: black;
+}
+
+a.coach.p-4.position-relative :hover .coachContentContainer p:hover {
+    color: white;
+}
+
+.coachContentContainer h4 {
+    color: black;
 }

@@ -15,7 +15,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Kontakt</h2>
                 <p> +123456789</p>
-                <p>mojebrdo@gmail.com</p> 
+                <p>super.fit@gmail.com</p> 
                 <p>Pozeska 11</p>
                 <p>Belgrade, Serbia</p>
           </div>
@@ -25,10 +25,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Teretana
+              Teretana Super Fit
             </Link>
           </div>
-          <small class='website-rights'>Moje brdo © 2021</small>
+          <small class='website-rights'>Teretana Super Fit © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

@@ -14,6 +14,10 @@ body {
   top: 200px;
 }
 
+p{
+  color: white;
+}
+
 h1,
 h2,
 a {
@@ -26,6 +30,16 @@ p {
 
 h6.designation {
   margin: 20px 0 0 0;
+}
+
+.content-container {
+  padding: 0 100px;
+  margin: 90px;
+  color: white;
+}
+
+.about-us h1 {
+  color: white;
 }
 
 /*main-picture*/

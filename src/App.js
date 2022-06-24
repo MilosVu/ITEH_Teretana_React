@@ -8,33 +8,6 @@ import Pocetna from './components/Pocetna';
 import ONama from './components/ONama';
 
 
-let treneri = [
-  {
-    "ime": "Milos",
-    "prezime": "Vujic",
-    "specijalnost": "Atletika",
-    "iskustvo": "4"
-  },
-  {
-    "ime": "Petar",
-    "prezime": "Petrovic",
-    "specijalnost": "Fitnes",
-    "iskustvo": "1"
-  },
-  {
-    "ime": "Nina",
-    "prezime": "Markovic",
-    "specijalnost": "Body building",
-    "iskustvo": "2"
-  },
-  {
-    "ime": "Milica",
-    "prezime": "Micic",
-    "specijalnost": "Atletika",
-    "iskustvo": "2"
-  }
-];
-
 let ponude = [
   {
     "naziv": "zlatni",
@@ -63,21 +36,34 @@ let ponude = [
 ];
 
 let data = {
-  "treneri": treneri,
-  "ponude": ponude
+  // treneri: vratiTrenere(),
+  ponude: ponude
 }
+
+// function vratiTrenere() {
+//   return axios.get("https://iteh-domaci-default-rtdb.europe-west1.firebasedatabase.app/treneri.json").then((res) => {
+
+//     console.log("stiglo");
+//     console.log(res.data);
+//     res.data.shift();
+//     return res.data;
+// });
+
 
 function App() {
   return (
     <div className='main-container'>
+
       <Router>
         <Navbar />
-        <Routes>
-          <Route path='/' element={<Pocetna data={data} />} />
-          <Route path='/pocetna' element={<Pocetna data={data} />} />
-          <Route path='/treneri' element={<Treneri treneri={data.treneri}/>} />
-          <Route path='/o-nama' element={<ONama />} />
-        </Routes>
+        <div className="content-container">
+          <Routes>
+            <Route path='/' element={<Pocetna data={data} />} />
+            <Route path='/pocetna' element={<Pocetna data={data} />} />
+            <Route path='/treneri' element={<Treneri />} />
+            <Route path='/o-nama' element={<ONama />} />
+          </Routes>
+        </div>
         <Footer />
       </Router>
     </div >
