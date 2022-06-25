@@ -35,18 +35,23 @@ class Treneri extends Component {
         vratiTrenere().then(res => {
             // res.map(d => console.log(d));
 
+            let specijalnostiPrikaz = [];
+
+            res.forEach((r) => {
+                specijalnosti.push(r.specijalnost);
+            });
 
             specijalnosti = specijalnosti.filter(function (value, index, array) {
                 return specijalnosti.indexOf(value) === index;
             });
 
-            res.forEach((r) => {
-                specijalnosti.push({ "value": r.specijalnost, "label": r.specijalnost });
+            specijalnosti.forEach((s) => {
+                specijalnostiPrikaz.push({ "value": s, "label": s });
             });
 
             this.setState({
                 treneri: res,
-                specijalnosti: specijalnosti
+                specijalnosti: specijalnostiPrikaz
             });
 
         });
